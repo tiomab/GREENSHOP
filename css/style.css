@@ -1,0 +1,54 @@
+
+input, button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.layout {
+    width: 52;
+    height: 16;
+    top: 52px;
+    left: 172px;
+}
+
+.layout a {
+    font-family: Cera Pro;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    color: #3D3D3D;
+    text-decoration: none;
+}
+
+.layout span {
+    font-family: Cera Pro;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    color: #46A358;
+}
+
+form input {
+    width: 300px;
+    height: 40px;
+}
+
+form button {
+    background: #46A358;
+    color: white;
+    width: 300px;
+    height: 45px;
+}
+
+button {
+    background: white;
+    width: 300px;
+    height: 40px;
+}
+
+button img {
+    height: 20px;
+    width: 20px;
+}
