@@ -1,3 +1,99 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 1200px;
+    height: 53px;
+    border-bottom: #46A358 1px solid;
+}
+
+.nav-tab {
+    display: inline-block;
+    width: 351px;
+    height: 45px;
+    margin-left: 290px;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.active {
+    border-bottom: #46A358 3px solid;
+    padding-bottom: 13px;
+}
+
+.link {
+    display: inline-block;
+    margin-left: 290px;
+    min-width: 64px;
+    height: 20px;
+    padding: 8px 17px;
+    background-color: #46A358;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.main {
+    margin-top: 15px;
+    width: 1200px;
+    height: 450px;
+    background-color: #F5F5F580;
+}
+
+.text {
+    display: inline-block;
+    margin: 50px 30px;
+    vertical-align: top;
+    width: 590px;
+    height: 140px;
+}
+
+.welcome {
+    margin-top: 15px;
+    text-transform: uppercase;
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.better {
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+.better span {
+    color: #46A358;
+}
+
+.line {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #727272;
+}
+
+.shop-btn {
+    display: inline-block;
+    min-width: 64px;
+    height: 20px;
+    padding: 8px 17px;
+    margin-top: 40px;
+    background-color: #46A358;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
 input, button {
     display: block;
