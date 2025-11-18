@@ -5,20 +5,27 @@
 
 .header {
     width: 1200px;
-    height: 53px;
     border-bottom: #46A358 1px solid;
 }
 
 .nav-tab {
     display: inline-block;
-    width: 351px;
-    height: 45px;
-    margin-left: 290px;
+    width: 390px;
+    margin-left: 270px;
 }
 
 .nav-item {
     display: inline-block;
     margin-left: 40px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    padding: 4px 4px 15px 4px;
+}
+
+.nav-item a:hover {
+    background-color: #E5FFCC;
 }
 
 .active {
@@ -28,9 +35,8 @@
 
 .link {
     display: inline-block;
-    margin-left: 290px;
+    margin-left: 270px;
     min-width: 64px;
-    height: 20px;
     padding: 8px 17px;
     background-color: #46A358;
     color: white;
@@ -38,10 +44,19 @@
     text-decoration: none;
 }
 
+.link img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.link div {
+    display: inline-block;
+    vertical-align: text-top;
+    font-size: 22px;
+}
+
 .main {
     margin-top: 15px;
-    width: 1200px;
-    height: 450px;
     background-color: #F5F5F580;
 }
 
@@ -50,7 +65,6 @@
     margin: 50px 30px;
     vertical-align: top;
     width: 590px;
-    height: 140px;
 }
 
 .welcome {
@@ -78,14 +92,12 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    letter-spacing: 0%;
     color: #727272;
 }
 
 .shop-btn {
     display: inline-block;
     min-width: 64px;
-    height: 20px;
     padding: 8px 17px;
     margin-top: 40px;
     background-color: #46A358;
