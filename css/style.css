@@ -77,22 +77,21 @@ a {
 }
 
 .intro {
-    display: inline-block;
     background-color: #F5F5F580;
 }
 
 .intro-text {
     display: inline-block;
-    width: 700px;
+    vertical-align: middle;
+    width: 690px;
     box-sizing: border-box;
-    float: left;
     padding: 68px 43px;
 }
 
 .flower {
     display: inline-block;
-    width: 500px;
-    float: right
+    vertical-align: middle;
+    width: 490px;
 }
 
 .welcome {
