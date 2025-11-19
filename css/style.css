@@ -1,5 +1,131 @@
+a {
+    text-decoration: none;
+    color: inherit
+}
 
-input, button {
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 64px;
+    padding: 8px 17px;
+    background-color: #46A358;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #195425;
+}
+
+.green {
+    color: #46A358
+}
+
+/* header styles */
+.header {
+    width: 1200px;
+    border-bottom: #46A358 1px solid;
+    margin-top: 5px;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav-tab {
+    display: inline-block;
+    margin-left: 275px;
+    margin-right: 275px;
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 5px 5px 15px 5px;
+}
+
+.nav-item:not(.active):hover {
+    background-color: #8fbd98;
+    border-bottom: 3px #46A358 solid;
+    color: white;
+}
+
+.nav-item.active {
+    font-weight: 700;
+    border-bottom: 3px #46A358 solid;
+}
+
+.btn span {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btn img {
+    vertical-align: middle;
+}
+
+/* main styles */
+.main {
+    margin: 12px 0px;
+}
+
+.intro {
+    background-color: #F5F5F580;
+}
+
+.intro-text {
+    display: inline-block;
+    vertical-align: middle;
+    width: 690px;
+    box-sizing: border-box;
+    padding: 68px 43px;
+}
+
+.flower {
+    display: inline-block;
+    vertical-align: middle;
+    width: 490px;
+}
+
+.welcome {
+    padding-bottom: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.intro-text h1 {
+    padding-bottom: 7px;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 70px;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+
+.text {
+    font-family: Cera Pro;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #727272;
+}
+
+.intro-text .btn {
+    margin-top: 44px;
+    text-transform: uppercase;
+}
+
+input,
+button {
     display: block;
     margin-bottom: 10px;
 }
@@ -16,7 +142,6 @@ input, button {
     font-weight: 500;
     font-size: 20px;
     line-height: 16px;
-    letter-spacing: 0%;
     color: #3D3D3D;
     text-decoration: none;
 }
@@ -26,7 +151,6 @@ input, button {
     font-weight: 500;
     font-size: 20px;
     line-height: 16px;
-    letter-spacing: 0%;
     color: #46A358;
 }
 

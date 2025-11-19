@@ -1,18 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
 
     <title>GREENSHOP</title>
-</head>
-<body>
-    <span>Login</span>
-    |
-    <a href="registration.html">Registration</a>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="images/logo.svg" alt="" class="logo" />
 
-</body>
+        <nav class="nav-tab">
+          <ul>
+            <li class="nav-item active">Home</li>
+            <li class="nav-item"><a href="#">Shop</a></li>
+            <li class="nav-item"><a href="#">Plant Care</a></li>
+            <li class="nav-item"><a href="#">Blogs</a></li>
+          </ul>
+        </nav>
+
+        <a href="registration.html" class="btn">
+          <img src="images/logout.svg" alt="" width="20" height="20" />
+          <span>Login</span>
+        </a>
+      </header>
+
+      <main class="main">
+        <section class="intro">
+          <div class="intro-text">
+            <p class="welcome">Welcome to GREENSHOP</p>
+            <h1>Let’s Make a Better <span class="green">Planet</span></h1>
+            <p class="text">
+              We are an online plant shop offering a wide range of cheap and
+              trendy plants. Use our plants to create an unique Urban Jungle.
+              Order your favorite plants!
+            </p>
+
+            <a href="#" class="btn">Shop Now</a>
+          </div>
+
+          <img class="flower" src="images/flower.svg" alt="" />
+        </section>
+      </main>
+    </div>
+  </body>
 </html>
