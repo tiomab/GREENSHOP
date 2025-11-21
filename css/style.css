@@ -1,3 +1,37 @@
+@font-face {
+  font-family: 'CeraPro';
+  src: url('../fonts/CeraPro-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'CeraPro';
+  src: url('../fonts/CeraPro-Bold.woff2') format('woff2');
+  font-weight: 700; 
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CeraPro';
+  src: url('../fonts/CeraPro-Black.woff2') format('woff2');
+  font-weight: 900; 
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+    font: 14px/1.2 "CeraPro", "Arial", "Helvetica", sans-sarif;
+    color: #3D3D3D;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 70px;
+}
+
 a {
     text-decoration: none;
     color: inherit
@@ -72,6 +106,8 @@ a {
 }
 
 /* main styles */
+
+/* section intro */
 .main {
     margin: 12px 0px;
 }
@@ -98,7 +134,8 @@ a {
     padding-bottom: 5px;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
+    letter-spacing: 3px;
     text-transform: uppercase;
 }
 
@@ -112,16 +149,170 @@ a {
 }
 
 .text {
-    font-family: Cera Pro;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.8;
     color: #727272;
 }
 
 .intro-text .btn {
     margin-top: 44px;
     text-transform: uppercase;
+}
+
+/* section catalog */
+.catalog {
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.categories {
+    width: 310px;
+    background-color: #FBFBFB;
+    float: left;
+}
+
+.categories h3 {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 14px 18px 0 18px;
+}
+
+.categories ul {
+    margin-top: 20px;
+    margin-bottom: 300px;
+    padding: 0 18px 14px;
+}
+
+.categories li {
+    margin: 15px 0;
+    padding-left: 12px;
+}
+
+.categories li.active {
+    color: #46A358;
+    font-weight: 700;
+}
+
+.categories a:hover {
+    color:#46A358
+}
+
+.sale-banner {
+    background-image: url("../images/rectangle.png");
+    text-align: center;
+}
+
+.sale-banner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sale-banner .title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sale-banner .sale-text {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.list-items {
+    display: inline-block;
+    width: 840px;
+    margin-left: 50px;
+}
+
+.list-items_nav {
+    padding-bottom: 10px;
+}
+
+.list-items_nav ul {
+    display: inline-block;
+}
+
+.list-items_nav li {
+    display: inline-block;
+    margin-right: 37px;
+}
+
+.list-items_nav li.active a {
+    color: #46A358;
+    font-weight: 700;
+    padding-bottom: 7px;
+    border-bottom: 3px solid #46A358;
+}
+
+.list-items_nav li:hover {
+    color: #46A358;
+}
+
+.list-items_sort {
+    display: inline-block;
+    float: right;
+}
+
+.list-items_sort a {
+    font-weight: 700;
+}
+
+.list-items_cards {
+    margin-top: 30px;
+    font-size: 0; /* to remove space between inline-block elements */
+}
+
+.card {
+    display: inline-block;
+    width: 250px;
+    margin-right: 35px;
+    margin-bottom: 50px;
+    font-size: 16px; /* reset font-size */
+}
+
+.card:nth-child(3n) {
+    margin-right: 0;
+}
+
+.card img {
+    background-color: #FBFBFB;
+}
+
+.card h4 {
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+.card span {
+    color: #46A358;
+    font-weight: 700;
+}
+
+.pagination {
+    text-align: right;
+}
+
+.pagination li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.pagination li a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+}
+
+.pagination li.active a,
+.pagination li a:hover {
+    background-color: #46A358;
+    color: white;
+    border-color: #46A358;
 }
 
 input,
