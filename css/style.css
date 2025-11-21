@@ -181,7 +181,7 @@ a {
 .categories ul {
     margin-top: 20px;
     margin-bottom: 300px;
-    padding: 0 18px 14px 18px;
+    padding: 0 18px 14px;
 }
 
 .categories li {
@@ -279,7 +279,7 @@ a {
     background-color: #FBFBFB;
 }
 
-.card p {
+.card h4 {
     margin-top: 12px;
     margin-bottom: 6px;
 }
