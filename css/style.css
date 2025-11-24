@@ -104,9 +104,7 @@ a {
 }
 
 .btn span {
-    /* display: inline-block; replaced by flex parent */
     text-align: center;
-    /* vertical-align: middle; replaced by flex align-items */
 }
 
 .btn img {
@@ -127,16 +125,12 @@ a {
 }
 
 .intro-text {
-    /* display: inline-block; replaced by flex parent */
-    /* vertical-align: middle; replaced by flex align-items */
     width: 690px;
     box-sizing: border-box;
     padding: 68px 43px;
 }
 
 .flower {
-    /* display: inline-block; replaced by flex parent */
-    /* vertical-align: middle; replaced by flex align-items */
     width: 490px;
 }
 
@@ -181,7 +175,6 @@ a {
 .categories {
     width: 310px;
     background-color: #FBFBFB;
-    /* float: left; replaced by flex parent */
 }
 
 .categories h3 {
@@ -232,7 +225,6 @@ a {
 }
 
 .list-items {
-    /* display: inline-block; replaced by flex parent */
     width: 840px;
     margin-left: 50px;
 }
@@ -245,12 +237,10 @@ a {
 }
 
 .list-items_nav ul {
-    /* display: inline-block; replaced by flex parent */
     display: flex;
 }
 
 .list-items_nav li {
-    /* display: inline-block; replaced by flex parent */
     margin-right: 37px;
 }
 
@@ -265,24 +255,17 @@ a {
     color: #46A358;
 }
 
-.list-items_sort {
-    /* display: inline-block; replaced by flex parent */
-    /* float: right; replaced by justify-content: space-between */
-}
-
 .list-items_sort a {
     font-weight: 700;
 }
 
 .list-items_cards {
     margin-top: 30px;
-    /* font-size: 0; replaced by flex */
     display: flex;
     flex-wrap: wrap;
 }
 
 .card {
-    /* display: inline-block; replaced by flex parent */
     width: 250px;
     margin-right: 35px;
     margin-bottom: 50px;
@@ -317,7 +300,6 @@ a {
 }
 
 .pagination li {
-    /* display: inline-block; replaced by flex parent */
     margin-left: 10px;
 }
 
