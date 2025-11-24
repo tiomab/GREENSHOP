@@ -43,7 +43,9 @@ a {
 }
 
 .btn {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     min-width: 64px;
     padding: 8px 17px;
     background-color: #46A358;
@@ -65,21 +67,27 @@ a {
     width: 1200px;
     border-bottom: #46A358 1px solid;
     margin-top: 5px;
+    display: flex;
+    align-items: center;
 }
 
 .logo {
-    display: inline-block;
-    vertical-align: middle;
+    /* display: inline-block; replaced by flex parent */
+    /* vertical-align: middle; replaced by flex align-items */
 }
 
 .nav-tab {
-    display: inline-block;
+    /* display: inline-block; replaced by flex parent */
     margin-left: 275px;
     margin-right: 275px;
 }
 
+.nav-tab ul {
+    display: flex;
+}
+
 .nav-item {
-    display: inline-block;
+    /* display: inline-block; replaced by flex parent */
     margin: 0 20px;
     padding: 5px 5px 15px 5px;
 }
@@ -96,9 +104,9 @@ a {
 }
 
 .btn span {
-    display: inline-block;
+    /* display: inline-block; replaced by flex parent */
     text-align: center;
-    vertical-align: middle;
+    /* vertical-align: middle; replaced by flex align-items */
 }
 
 .btn img {
@@ -114,19 +122,21 @@ a {
 
 .intro {
     background-color: #F5F5F580;
+    display: flex;
+    align-items: center;
 }
 
 .intro-text {
-    display: inline-block;
-    vertical-align: middle;
+    /* display: inline-block; replaced by flex parent */
+    /* vertical-align: middle; replaced by flex align-items */
     width: 690px;
     box-sizing: border-box;
     padding: 68px 43px;
 }
 
 .flower {
-    display: inline-block;
-    vertical-align: middle;
+    /* display: inline-block; replaced by flex parent */
+    /* vertical-align: middle; replaced by flex align-items */
     width: 490px;
 }
 
@@ -164,12 +174,14 @@ a {
 .catalog {
     margin-top: 60px;
     margin-bottom: 100px;
+    display: flex;
+    align-items: flex-start;
 }
 
 .categories {
     width: 310px;
     background-color: #FBFBFB;
-    float: left;
+    /* float: left; replaced by flex parent */
 }
 
 .categories h3 {
@@ -220,21 +232,25 @@ a {
 }
 
 .list-items {
-    display: inline-block;
+    /* display: inline-block; replaced by flex parent */
     width: 840px;
     margin-left: 50px;
 }
 
 .list-items_nav {
     padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .list-items_nav ul {
-    display: inline-block;
+    /* display: inline-block; replaced by flex parent */
+    display: flex;
 }
 
 .list-items_nav li {
-    display: inline-block;
+    /* display: inline-block; replaced by flex parent */
     margin-right: 37px;
 }
 
@@ -250,8 +266,8 @@ a {
 }
 
 .list-items_sort {
-    display: inline-block;
-    float: right;
+    /* display: inline-block; replaced by flex parent */
+    /* float: right; replaced by justify-content: space-between */
 }
 
 .list-items_sort a {
@@ -260,15 +276,17 @@ a {
 
 .list-items_cards {
     margin-top: 30px;
-    font-size: 0; /* to remove space between inline-block elements */
+    /* font-size: 0; replaced by flex */
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .card {
-    display: inline-block;
+    /* display: inline-block; replaced by flex parent */
     width: 250px;
     margin-right: 35px;
     margin-bottom: 50px;
-    font-size: 16px; /* reset font-size */
+    font-size: 16px; 
 }
 
 .card:nth-child(3n) {
@@ -290,11 +308,16 @@ a {
 }
 
 .pagination {
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pagination ul {
+    display: flex;
 }
 
 .pagination li {
-    display: inline-block;
+    /* display: inline-block; replaced by flex parent */
     margin-left: 10px;
 }
 
