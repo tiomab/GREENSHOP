@@ -271,6 +271,23 @@ a {
     margin-right: 35px;
     margin-bottom: 50px;
     font-size: 16px; 
+    border-top: 1px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.card:hover {
+    border-top: 1px solid #46A358;
+}
+
+.card .card__sale {
+    position: absolute;
+    top: 13px;
+    left: 0;
+    background-color: #46A358;
+    color: #FFFFFF;
+    padding: 7px 13px;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .card:nth-child(3n) {
